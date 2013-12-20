@@ -1,0 +1,192 @@
+
+/* 
+    Document   : CascadeStyleSheet
+    Created on : Dec 20, 2013, 5:11:20 PM
+    Author     : Taslim khan 
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+@font-face {
+    font-family: 'avenirbook';
+    src:url('fonts/avenir-book-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'avenirmedium';
+    src:url('fonts/avenir-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    background-position: 0px 0px;
+    color: #735e3a;
+    font-family:avenirmedium, Arial, Helvetica, sans-serif;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+
+
+.container-div{
+    background:url('../images/main2bg.png') repeat,
+        url('../images/main.png') repeat;
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    min-height: 1136px;
+    text-align: center;
+    background-size: cover;
+    background-clip: border-box;
+    background-origin: padding-box;
+}
+
+.container-div img{
+    margin: 0 auto;
+    position: relative;
+}
+.head{
+    height: 50px;
+    background: #000;
+    width: 100%;
+    box-shadow: 0 0 5px #c3c3c3;
+
+}
+.icon-holder-left,.icon-holder-right{
+    margin: 50px 0 0 0;
+    width: 50%;
+    float: left;
+
+}
+
+.icon-holder-sub,.icon-holder-sub1{
+    height: 150px;
+    display: block;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.icon-holder-sub1{
+    position: relative;
+    bottom: 20px;
+}
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6{
+    width:150px;
+    height:130px;
+    margin: 0 auto;
+    position: relative;
+    background-clip: border-box!important;
+    background-origin: padding-box!important;
+    background-position: center center!important;
+    display: block;
+    cursor: pointer;
+}
+.icon1{
+    background:url('../images/main5.png') no-repeat;
+}
+/*.icon1:hover{
+    background:url('../images/main5-hov.png') no-repeat;
+}*/
+.icon2{
+    background:url('../images/main3.png') no-repeat;
+
+}
+/*.icon2:hover{
+    background:url('../images/main3-hov.png') no-repeat;
+}*/
+.icon3{
+    background:url('../images/main6.png') no-repeat;
+    padding-top: 50px!important;
+
+}
+/*.icon3:hover{
+    background:url('../images/main6.png') no-repeat;
+}*/
+.icon4{
+    background:url('../images/main4.png') no-repeat;
+
+}
+/*.icon4:hover{
+    background:url('../images/main4-hov.png') no-repeat;
+}*/
+.icon5{
+    background:url('../images/main2.png') no-repeat;
+
+}
+/*.icon5:hover{
+    background:url('../images/main2.png') no-repeat;
+}*/
+.icon6{
+    background:url('../images/main1.png') no-repeat;
+    padding-top: 50px!important;
+
+}
+/*.icon6:hover{
+    background:url('../images/main1-hov.png') no-repeat;
+}*/
+
+.icon-holder-sub span,.icon-holder-sub1 span{
+    font-size: 2.8em;
+    font-family:avenirbook, Arial, Helvetica, sans-serif;
+    color: #7f8184;
+}
+
+.left-tool{
+    width:60px;
+    height:60px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    background:url('../images/tool.png') no-repeat;
+    bottom: 10px;
+    left: 20px;
+
+}
+.right-call{
+    width:60px;
+    height:60px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    background:url('../images/call.png') no-repeat;
+    bottom: 10px;
+    right: 20px;
+
+}
+
+.notific{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #d90000;
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    vertical-align:central
+}
+
+.notific span{
+    color:#fff;
+    font-size: 2em;
+    margin-top: 13px;
+    margin-left: 13px;
+    float: left;
+}
+.icon5 .notific{
+
+    right:0px;
+    top: 0px;
+}
+.icon4 .notific{
+
+    right:-9px;
+    top: 3px;
+}
