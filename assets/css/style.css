@@ -174,11 +174,11 @@ body {
 }
 
 .notific span{
+    font-family:avenirmedium, Arial, Helvetica, sans-serif;
     color:#fff;
     font-size: 2em;
-    margin-top: 13px;
-    margin-left: 13px;
-    float: left;
+    line-height: 1.95em;
+
 }
 .icon5 .notific{
 
