@@ -1,0 +1,12 @@
+@media (min-width: 768px) and (max-width: 979px) { 
+    
+}
+
+
+@media (min-width:640px) { 
+    .container-div{
+            width: 640px;
+
+    }
+    
+}

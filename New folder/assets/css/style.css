@@ -37,14 +37,15 @@ body {
 
 
 .container-div{
-    background:url('../images/main2bg.png') 50% 70% no-repeat,
-        url('../images/main.png')0 40px repeat;
+    background:url('../images/main2bg.png') repeat,
+        url('../images/main.png') repeat;
     margin: 0 auto;
     position: relative;
     min-height: 1136px;
     text-align: center;
-    width: 100%;
-
+    background-size: cover;
+    background-clip: border-box;
+    background-origin: padding-box;
 }
 
 .container-div img{
@@ -187,8 +188,4 @@ body {
 
     right:-9px;
     top: 3px;
-}
-
-.logo{
-    min-height:170px;
 }
